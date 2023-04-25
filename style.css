@@ -1,0 +1,117 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+  *{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+  }
+
+  body{
+    background-color:#C4DED5;
+    font-family: 'Montserrat' ,sans-serif;
+  }
+
+  .cont{
+    padding: 20px;
+    width: 350px;
+    background-color: #ffffff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    border-radius: 5px;
+    max-height: 500px;
+    height: 500px;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+  }
+
+  .cont fa-arrow-left{
+    color: black;
+    font-size: 19px;
+  } 
+
+  .cont .text {
+    position:absolute;
+    top: 30px;
+    left: 50%;
+    transform: translate(-50% , -50%);;
+    font-size: 19px;
+  }
+
+  .cont .search-box{
+    height: 45px;
+    width: 100%;
+    border-bottom: 1px solid rgba(220,220,220,0.5);
+    border-radius: 3px;
+    padding: 5px;
+    margin-top: 17px;
+    display: flex;
+    align-items: center;
+  }
+
+  .cont .search-box .fa-magnifying-glass{
+  color: grey;
+  margin-left: 10px;
+
+  }
+
+  .cont .search-box input{
+    all: unset;
+    height: 40px;
+    width: 100%;
+    margin-left: 15px;
+  }
+
+  .cont .item-box{
+    margin-top: 20px;
+   height: auto;
+   object-fit: contain;
+  }
+
+
+  .cont .item-box .item{
+  
+    height: auto;
+    width: 100%;
+   border-bottom: 1px solid rgba(220,220,220,0.7);
+   position: relative;
+   scroll-behavior: smooth;
+   padding-bottom: 2px;
+  }
+
+  .cont .item-box .item .img {
+    height: 50px;
+    width: 50px;
+    border-radius: 1.5rem;
+    box-shadow: rgba(0,0,0,0.15) 0px 5px 15px 0px;
+    position: relative;
+   
+
+  }
+
+
+  .cont .item-box .item .img img{
+    height: 100%;
+    width: 100%;
+    border-radius: 1.5rem;
+  }
+
+
+  .cont .item-box .item span{
+    margin-right: 80px;
+    margin-left: 65px;
+    font-size: 12px;
+    position: absolute;
+    margin-top: -40px;
+  }
+
+
+  .cont .item-box .item .product-price{
+    position: absolute;
+    left: 70px;
+    font-size: 11px;
+    margin-left: -5px;
+    margin-top: -15px;
+  }
